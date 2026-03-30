@@ -1,0 +1,400 @@
+/*Common*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*Common*/
+
+
+/*Header*/
+#headerpart {
+    padding: 30px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+}
+
+.logoMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoMenu ul {
+    display: flex;
+}
+
+.logoMenu ul li a {
+    padding: 0 15px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 400;
+    color: #474747;
+    transition: all linear .4s;
+}
+
+.logoMenu ul li a:hover {
+    color: #FD6E0A;
+
+}
+
+.hireBtn a {
+    padding: 18px 36px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: #FFF8F3;
+    font-size: 20px;
+    font-weight: 700;
+    transition: 0.4s;
+    border: 1px solid #FD6E0A;
+}
+
+.hireBtn a:hover {
+    background: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+/*Header*/
+
+/*Banner*/
+
+#bannerbg {
+    background: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 310px;
+    padding-bottom: 180px;
+}
+
+.bannercontent h3 {
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+}
+
+.bannercontent h1 {
+    font-size: 85px;
+    color: #181818;
+    font-weight: 700;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+}
+
+.bannercontent p {
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+    width: 585px;
+    line-height: 30px;
+}
+
+.bannerbutton {
+    margin-top: 35px;
+}
+
+.bannerbutton a {
+    padding: 16px 19px;
+    background: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-right: 30px;
+    border: 1px solid #FD6E0A;
+    transition: .4s;
+}
+
+.bannerbutton a:hover {
+    background: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+#aboutpart {
+    padding: 150px 0;
+}
+
+.aboutbox {
+    width: 100%;
+    padding: 150px 150px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    /* box-shadow: 0px 6px 50px 0 #0000001f ; */
+}
+
+.aboutbox h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #181818;
+
+}
+
+.aboutbox p {
+    text-align: center;
+    margin: 40px 0;
+    line-height: 30px;
+    font-size: 18px;
+    color: #757575;
+}
+
+.aboutinfoflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutinfo h6 {
+    font-size: 20px;
+    text-align: center;
+}
+
+#aboutinfoheading {
+    color: #757575;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+#aboutinfomain {
+    color: #474747;
+    font-weight: 700;
+}
+
+#skillpart {
+    padding: 150px 0;
+}
+
+.skillflex {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skillitem {
+    width: 23%;
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0 #0000001f;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.skillitem h3 {
+    margin: 30px 0 20px;
+}
+
+.skillitem p {
+    line-height: 28px;
+}
+
+#skilparttitle {
+    margin-bottom: 45px;
+    text-align: center;
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+}
+
+#skillpartp {
+    margin-bottom: 45px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 18px;
+    color: #757575;
+}
+
+#resumetitle {
+    font-size: 40px;
+    color: #333;
+    text-align: center;
+    margin: 113px 0;
+}
+
+.resumeflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#resumecontainertitle {
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+
+}
+
+#resumepart {
+    padding: 150px 0;
+}
+
+
+.resumecontainer {
+    width: 48%;
+    margin-bottom: 30px;
+
+}
+
+.resumeitem {
+    padding: 10px 0 30px;
+    border-bottom: 2.5px solid #D1D1D1;
+    margin: 30px 0;
+}
+
+.resumeitem h3 {
+    font-size: 25px;
+    color: #474747;
+}
+
+
+
+.resumeitem h6 {
+    padding: 20px 0;
+    font-size: 20px;
+    font-weight: semi-bold;
+    color: #757575;
+}
+
+.resumeitem p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #757575;
+}
+
+.downloadcv {
+    display: flex;
+    justify-content: center;
+}
+
+.downloadcv a {
+    text-align: center;
+    padding: 18px 30px;
+    background: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-right: 30px;
+    border: 1px solid #FD6E0A;
+    transition: .4s;
+}
+
+.downloadcv a:hover {
+    background: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
+
+
+#footerpart {
+    padding: 200px 0;
+    background-color: #FFF8F3;
+}
+
+.footerflex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerconnect {
+    width: 45%;
+}
+
+.footerconnect h2 {
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: #181818;
+
+}
+
+.footerconnect p {
+    color: #474747;
+    line-height: 28px;
+
+}
+
+#footerinputname {
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    color: #757575;
+}
+
+#footerinputemail {
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin: 25px 0;
+    color: #757575;
+}
+
+#footerinputmessage {
+    width: 100%;
+    padding: 20px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 25px;
+    color: #757575;
+}
+
+.footerconnect button {
+    text-align: center;
+    padding: 10px 20px;
+    background: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-right: 30px;
+    border: 1px solid #FD6E0A;
+    transition: .4s;
+}
+
+.footerconnect button:hover {
+    background: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+}
